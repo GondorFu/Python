@@ -1,0 +1,85 @@
+
+# 安装第三方库
+# pip install Pillow
+
+from PIL import Image
+im  = Image.open('落日枫叶.jpg')
+print(im.format, im.size, im.mode)
+im.thumbnail((200, 100))
+im.save('thumb.jpg', 'JPEG')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
